@@ -1,0 +1,21 @@
+Source: node-time-stamp
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-time-stamp
+Vcs-Git: https://salsa.debian.org/js-team/node-time-stamp.git
+Homepage: https://github.com/jonschlinkert/time-stamp
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-time-stamp
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: get a formatted timestamp
+ .
+ Node.js is an event-based server-side JavaScript engine.
