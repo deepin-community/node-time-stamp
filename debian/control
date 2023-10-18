@@ -17,5 +17,4 @@ Architecture: all
 Depends: ${misc:Depends}
 Multi-Arch: foreign
 Description: get a formatted timestamp
- .
  Node.js is an event-based server-side JavaScript engine.
